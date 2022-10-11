@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DependenciaServicios2022.MainPage">
+
+    <StackLayout>
+        <Button Text="Read" x:Name="btnRead" Clicked="btnRead_Clicked"></Button>
+        <Entry Placeholder="Write" x:Name="txtMessage"></Entry>
+    </StackLayout>
+
+</ContentPage>
